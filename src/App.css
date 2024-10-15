@@ -1,0 +1,65 @@
+.Container {
+  background: url(./images/main-bacround.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.cardContainer_main {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.cardContainer_main--1 {
+  background: url(./images/second-becround.webp);
+  height: 150px;
+  border-radius: 30px;
+}
+
+.cardContainer_main--2 {
+  width: 100px;
+  height: 100px;
+  background: url(./images/girl.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  right: 150px;
+  top: 100px;
+}
+
+.namePart {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  font-family: sans-serif;
+  font-weight: 600;
+  gap: 12px;
+}
+
+.namePart--span {
+  font-weight: 400;
+}
+.locationPart {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.line {
+  border: 1px solid gray;
+  opacity: 30%;
+}
