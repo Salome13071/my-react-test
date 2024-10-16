@@ -18,7 +18,7 @@ function App() {
               <p className="locationPart">London</p>
             </div>
             <div className="line"></div>
-            <div>12345</div>
+            <img src="" alt="" />
           </div>
         </div>
       </div>
